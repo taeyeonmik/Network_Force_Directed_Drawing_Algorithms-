@@ -1,0 +1,12 @@
+graph {
+    h1 [label="H"]
+    h2 [label="H"]
+    h3 [label="H"]
+    h4 [label="H"]
+    c [label="C"]
+
+    c -- h1
+    c -- h2
+    c -- h3
+    c -- h4
+}

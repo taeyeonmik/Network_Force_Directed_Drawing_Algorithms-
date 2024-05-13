@@ -1,0 +1,8 @@
+graph {
+    a1 [label="H"]
+    a2 [label="H"]
+    a3 [label="O"]
+
+    a1 -- a3
+    a2 -- a3
+}

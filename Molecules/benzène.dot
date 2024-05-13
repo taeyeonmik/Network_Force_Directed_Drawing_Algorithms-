@@ -1,0 +1,31 @@
+graph {
+    h1 [label="H"]
+    h2 [label="H"]
+    h3 [label="H"]
+    h4 [label="H"]
+    h5 [label="H"]
+    h6 [label="H"]
+    c1 [label="C"]
+    c2 [label="C"]
+    c3 [label="C"]
+    c4 [label="C"]
+    c5 [label="C"]
+    c6 [label="C"]
+
+    c1 -- h1
+    c2 -- h2
+    c3 -- h3
+    c4 -- h4
+    c5 -- h5
+    c6 -- h6
+
+    c1 -- c2
+    c1 -- c2
+    c2 -- c3
+    c3 -- c4
+    c3 -- c4
+    c4 -- c5
+    c5 -- c6
+    c5 -- c6
+    c6 -- c1
+}
